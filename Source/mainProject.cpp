@@ -10,7 +10,7 @@ void mainFilter(float gama, float beta, int & ct_frame, std::complex<float> wm, 
 	std::complex<float> phaseMod[256];
 	std::complex<float> conjPhaseMod[256];
 	ct_frame++;		
-
+    //teste 123...
 	int error_num = 0;
 	bool ovflo_all = false;
 	static cmpxDataIn xn_input[256];
